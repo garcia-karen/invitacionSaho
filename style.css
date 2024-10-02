@@ -108,7 +108,7 @@ body{
     font-family: "Josefin Slab", serif;
     font-optical-sizing: auto;
     display: block;
-    font-size: 1em;
+    font-size: clamp(2rem, 2vw + 1rem, 10rem);
     margin-block-start: 0.83em;
     margin-block-end: 0.83em;
     margin-inline-start: 0px;
@@ -118,3 +118,10 @@ body{
     
 }
 
+/*h5{
+    font-size: clamp(1rem, 2vw + 1rem, 20rem);
+}*/
+
+p{
+    font-family: 'Courier New', Courier, monospace;
+}
