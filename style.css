@@ -201,6 +201,6 @@ body{
 .modal-title{
 color: rgb(8, 8, 8);
 font-family: "Roboto Condensed", sans-serif;
-    font-weight: bold;
-    unicode-bidi: isolate;
+font-weight: bold;
+unicode-bidi: isolate;
 }
