@@ -36,12 +36,17 @@
             Uno de esos momentos
             ha llegado y lo quiero
             compartir contigo. </h5>
+            <h2>Te espero el día</h2>
+            <h1 class="fecha">23 de Noviembre</h1>
             <br>
             ¡No puedes faltar!
             <br>
             ¡Me hará muy feliz
-            verte ese día!
+            verte ese día!    
         </div>
+        <div class="donde">
+          <h2 >¿Dónde?</h2>
+       </div>
         
         <div class="row row-cols-1 row-cols-md-3 g-4 infoPrincipal">
           <div class="col">
@@ -94,7 +99,31 @@
                   <br>
                   Valle de Chalco Solidaridad, CP 56610.</p>
               </div>
-              
+              <div class="card-footer">
+              <!-- Button trigger modal -->
+<button type="button" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#staticBackdrop2">
+  Ver Mapa
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="staticBackdrop2" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdrop2Label" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="staticBackdrop2Label">Recepción</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d235.37448169207318!2d-98.9541396819796!3d19.282726840442592!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85ce1c438f2f941f%3A0x731b63c1775c82a!2sSur%2010%206910%2C%20Ni%C3%B1os%20Heroes%2C%2056610%20Valle%20de%20Chalco%20Solidaridad%2C%20M%C3%A9x.!5e0!3m2!1ses-419!2smx!4v1728805599547!5m2!1ses-419!2smx" 
+        width="280" height="180" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+      </div>
+      </div>
+    </div>
+  </div>
+</div>
             </div>
           </div>
           <div class="col">
@@ -111,11 +140,79 @@
             </div>
           </div>
         </div>
-          
-            
+
+        <div class="dressCode">
+          <h2 >Dress Code</h2>
+          <img src="./FORMAL.png" class="formal" alt="dressCodeformal">
+       </div>
+      
+       <div class="regalos">
+        <h2 class="regalostitulo">Regalos</h2>
+        <img src="./Fondo de regaloosobre eliminado.png" class="regaloSobre" alt="regaloSobre">
+        <h3 class="msjRegalo2">Regalo o Sobre</h3>
+        <h2 class="msjRegalo">Me hará muy feliz recibir un obsequio de tu parte.</h2>
+        <h2 class="msjRegalo">¡Aquí te dejo algunas ideas!</h2>
+        
+        <!-- Button trigger modal -->
+<button type="button" class="btn1 btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop3">
+  Ver
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="staticBackdrop3" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdro3pLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="staticBackdrop3Label">Ideas para mi obsequio perfecto</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="row row-cols-1 row-cols-md-3 row-cols-ch-3  g-4 modal-body">
+        <img src="./img1.jpeg" class="imagenRegalo" alt="img1">
+        <img src="./img2.jpeg" class="imagenRegalo" alt="img2">
+        <img src="./img3.jpeg" class="imagenRegalo" alt="img3">
+        <img src="./img4.jpeg" class="imagenRegalo" alt="img4">
+        <img src="./img5.jpeg" class="imagenRegalo" alt="img5">
+        <img src="./img6.jpeg" class="imagenRegalo" alt="img6">
+        <img src="./img7.jpeg" class="imagenRegalo" alt="img7">
+        <img src="./img8.jpeg" class="imagenRegalo" alt="img8">
+        <img src="./img9.jpeg" class="imagenRegalo" alt="img9">
+        <img src="./img10.jpeg" class="imagenRegalo" alt="img10">
+        <img src="./img11.jpeg" class="imagenRegalo" alt="img11">
+        <img src="./img13.jpeg" class="imagenRegalo" alt="img13">
+        <img src="./img14.jpeg" class="imagenRegalo" alt="img14">
+        <img src="./img17.jpeg" class="imagenRegalo" alt="img15">
+        <img src="./img19.jpeg" class="imagenRegalo" alt="img16">
+
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+        
+      </div>
+    </div>
+  </div>
+</div>
+     </div>
+     <div class="confirmacion">
+      <h2 class="confirmacion1" >Confirma tu asistencia</h2>
+      <form onsubmit="return false;">
+        <label  for="nombre" ></label>
+        <input type="text" id="nombre" name="nombre" class="nombreAp" placeholder="Nombre y Apellido">
+        <label class="nombreAp2" for="asistencia">¿Asistirás al evento?</label>
+        <select id="asistencia" name="asistencia">
+    <option value="ninguna" selected>Seleccione</option>
+    
+          <option value="si">Sí, con gusto asistiré.</option>
+          <option value="no">No, no podré. ¡Lo siento!</option>
+        </select>
+    
+        <!-- Agregar un div donde se mostrará el botón de WhatsApp -->
+        <div id="boton-whatsapp"></div>
+      </form>
+    
+   </div>            
       
  
-    
+    <script src="./javascript.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
 </body>
