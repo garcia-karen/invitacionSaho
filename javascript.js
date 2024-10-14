@@ -15,7 +15,7 @@ else if (asistencia === "ninguna") {
       mensaje = "Hola, mi nombre es " + nombre + "...";
     }
 
-    var telefono = "528118546934";
+    var telefono = "525644404853";
     var url = "https://wa.me/" + telefono + "?text=" + encodeURIComponent(mensaje);
 
     var boton = document.createElement("button");
